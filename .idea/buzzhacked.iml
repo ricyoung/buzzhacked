@@ -121,69 +121,703 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activejob (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.3, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="babel-source (v5.8.35, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="babel-transpiler (v0.7.0, rbenv: 2.3.0) [gem]" level="application" />
+    <orderEntry type="module-library">
+      <library name="actionmailer (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/actionmailer-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/actionmailer-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/actionmailer-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="actionpack (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/actionpack-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/actionpack-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/actionpack-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="actionview (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/actionview-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/actionview-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/actionview-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activejob (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/activejob-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activejob-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activejob-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activemodel (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/activemodel-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activemodel-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activemodel-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activerecord (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activerecord-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="activesupport (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/activesupport-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activesupport-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/activesupport-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="arel (vbundled(6.0.3), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/arel-6.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/arel-6.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/arel-6.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="babel-source (vbundled(5.8.35), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/babel-source-5.8.35) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/babel-source-5.8.35/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/babel-source-5.8.35/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="babel-transpiler (vbundled(0.7.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/babel-transpiler-0.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/babel-transpiler-0.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/babel-transpiler-0.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="builder (vbundled(3.2.2), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/builder-3.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/builder-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/builder-3.2.2/rakelib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/builder-3.2.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/builder-3.2.2/rakelib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-rails (vbundled(4.1.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/coffee-rails-4.1.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-rails-4.1.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-rails-4.1.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-script (vbundled(2.4.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/coffee-script-2.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-script-2.4.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-script-2.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="coffee-script-source (vbundled(1.10.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/coffee-script-source-1.10.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-script-source-1.10.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/coffee-script-source-1.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="concurrent-ruby (vbundled(1.0.2), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/concurrent-ruby-1.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/concurrent-ruby-1.0.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/concurrent-ruby-1.0.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="erubis (vbundled(2.7.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/doc-api" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/benchmark" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/doc-api" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/erubis-2.7.0/benchmark" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="execjs (vbundled(2.7.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/execjs-2.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/execjs-2.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/execjs-2.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="foundation-rails (vbundled(6.2.3.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/app" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/foundation-rails-6.2.3.0/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="globalid (vbundled(0.3.7), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/globalid-0.3.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.3.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/globalid-0.3.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="i18n (vbundled(0.7.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/i18n-0.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.7.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.7.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/i18n-0.7.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jbuilder (vbundled(2.6.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/jbuilder-2.6.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jbuilder-2.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jbuilder-2.6.0/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jbuilder-2.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jbuilder-2.6.0/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jquery-rails (vbundled(4.2.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.2.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.2.1/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.2.1/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/jquery-rails-4.2.1/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="loofah (vbundled(2.0.3), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/loofah-2.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/loofah-2.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/loofah-2.0.3/benchmark" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/loofah-2.0.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/loofah-2.0.3/benchmark" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mail (vbundled(2.6.4), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/mail-2.6.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mail-2.6.4/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mail-2.6.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mime-types (vbundled(3.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/mime-types-3.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mime-types-3.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mime-types-3.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mime-types-data (vbundled(3.2016.0521), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/mime-types-data-3.2016.0521) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mime-types-data-3.2016.0521/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mime-types-data-3.2016.0521/data" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mime-types-data-3.2016.0521/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mime-types-data-3.2016.0521/data" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mini_portile2 (vbundled(2.1.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="minitest (vbundled(5.9.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/minitest-5.9.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/minitest-5.9.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/minitest-5.9.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="multi_json (vbundled(1.12.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/multi_json-1.12.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/multi_json-1.12.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/multi_json-1.12.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="newrelic_rpm (vbundled(3.16.3.323), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/ui" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/cert" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/recipes" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/ui" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/cert" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/config" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/vendor" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/newrelic_rpm-3.16.3.323/recipes" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nokogiri (vbundled(1.6.8), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/suppressions" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/patches" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8/suppressions" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pg (vbundled(0.19.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0/sample" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pg-0.19.0/sample" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pkg-config (vbundled(1.1.7), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/pkg-config-1.1.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pkg-config-1.1.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/pkg-config-1.1.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="puma (vbundled(3.6.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/tools" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/puma-3.6.0/tools" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack (vbundled(1.6.4), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/example" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/contrib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-1.6.4/example" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rack-test (vbundled(0.6.3), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rack-test-0.6.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-test-0.6.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rack-test-0.6.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-4.2.7.1/guides" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-4.2.7.1/guides" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails-deprecated_sanitizer (vbundled(1.0.3), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails-deprecated_sanitizer-1.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-deprecated_sanitizer-1.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-deprecated_sanitizer-1.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails-dom-testing (vbundled(1.0.7), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails-dom-testing-1.0.7) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-dom-testing-1.0.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-dom-testing-1.0.7/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails-html-sanitizer (vbundled(1.0.3), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails-html-sanitizer-1.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-html-sanitizer-1.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails-html-sanitizer-1.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_12factor (vbundled(0.0.3), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails_12factor-0.0.3) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_12factor-0.0.3/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_12factor-0.0.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_serve_static_assets (vbundled(0.0.5), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails_serve_static_assets-0.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_serve_static_assets-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_serve_static_assets-0.0.5/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_serve_static_assets-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_serve_static_assets-0.0.5/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rails_stdout_logging (vbundled(0.0.5), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rails_stdout_logging-0.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_stdout_logging-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_stdout_logging-0.0.5/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_stdout_logging-0.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rails_stdout_logging-0.0.5/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="railties (vbundled(4.2.7.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/railties-4.2.7.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/railties-4.2.7.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/railties-4.2.7.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/railties-4.2.7.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/railties-4.2.7.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (vbundled(11.3.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/exe" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rake-11.3.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rdoc (vbundled(4.2.2), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/rdoc-4.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rdoc-4.2.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rdoc-4.2.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rdoc-4.2.2/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/rdoc-4.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sass (vbundled(3.4.22), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/extra" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/extra" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/rails" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-3.4.22/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sass-rails (vbundled(5.0.6), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/sass-rails-5.0.6) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-rails-5.0.6/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sass-rails-5.0.6/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sdoc (vbundled(0.4.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/sdoc-0.4.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sdoc-0.4.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sdoc-0.4.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sdoc-0.4.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sdoc-0.4.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sprockets (vbundled(3.7.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/sprockets-3.7.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-3.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-3.7.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-3.7.0/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-3.7.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sprockets-es6 (vbundled(0.9.2), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/sprockets-es6-0.9.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-es6-0.9.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-es6-0.9.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sprockets-rails (vbundled(3.2.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thor (vbundled(0.19.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/thor-0.19.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thor-0.19.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thor-0.19.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thor-0.19.1/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thor-0.19.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="thread_safe (vbundled(0.3.5), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/yard-template" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/ext" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/tasks" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/thread_safe-0.3.5/yard-template" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tilt (vbundled(2.0.5), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5/man" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5/bin" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tilt-2.0.5/man" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="turbolinks (vbundled(5.0.1), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/turbolinks-5.0.1) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/turbolinks-5.0.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/turbolinks-5.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="turbolinks-source (vbundled(5.0.0), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/turbolinks-source-5.0.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/turbolinks-source-5.0.0/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/turbolinks-source-5.0.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tzinfo (vbundled(1.2.2), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/tzinfo-1.2.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tzinfo-1.2.2/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/tzinfo-1.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="uglifier (vbundled(3.0.2), /Users/ric/Rubymine/buzzhacked/vendor/bundle/ruby/2.3.0/gems/uglifier-3.0.2) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uglifier-3.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uglifier-3.0.2/gemfiles" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uglifier-3.0.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.3.0/gems/uglifier-3.0.2/gemfiles" />
+        </SOURCES>
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.13.2, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v9.0.6, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.4.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.10.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.2, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="foundation-rails (v6.2.3.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.7, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.6.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.2.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.3, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.4, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v3.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types-data (v3.2016.0521, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.1.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.9.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.12.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.16.3.323, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.8, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pg (v0.19.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pkg-config (v1.1.7, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-deprecated_sanitizer (v1.0.3, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v1.0.7, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.3, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_12factor (v0.0.3, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_serve_static_assets (v0.0.5, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_stdout_logging (v0.0.5, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.7.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v11.3.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.2, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.22, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.6, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets-es6 (v0.9.2, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.5, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.5, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v5.0.1, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks-source (v5.0.0, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, rbenv: 2.3.0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="uglifier (v3.0.2, rbenv: 2.3.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v2.3.0, rbenv: 2.3.0) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
