@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #ruby for heroku
-ruby "2.3.0"
+ruby "2.3.1"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
@@ -50,8 +50,7 @@ gem 'rails_12factor', group: :production
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'binding_of_caller'
-  gem 'better_errors'
+
 end
 
 group :development do
