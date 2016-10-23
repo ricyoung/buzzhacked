@@ -7,7 +7,7 @@ class WelcomeController < ApplicationController
 
 
   def fetch
-    email='ricyoung@gmail.com'
+    email= params[:email]
     inurl = 'https://haveibeenpwned.com/api/v2/breachedaccount/' + email
     url = URI(inurl)
     @res =  Net::HTTP.get(url)
