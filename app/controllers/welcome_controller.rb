@@ -2,8 +2,7 @@ require 'net/http'
 require 'open-uri'
 
 class WelcomeController < ApplicationController
-
-
+  
 
 
   def fetch
