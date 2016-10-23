@@ -10,7 +10,7 @@ class WelcomeController < ApplicationController
     email= params[:email]
     inurl = 'https://haveibeenpwned.com/api/v2/breachedaccount/' + email
     url = URI(inurl)
-    @res =  Net::HTTP.get(url)
+    @res =  Net::HTTP.get(url :use_ssl => uri.scheme == 'https')
     response = JSON.parse(@res)
     response.each do | p|
       pwn=Pwnd.new
