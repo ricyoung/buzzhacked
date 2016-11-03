@@ -12,7 +12,7 @@ class WelcomeController < ApplicationController
     @res =  Net::HTTP.get(url)
 
     if @res.length <3
-      nothacked = 'email'
+      @res = 'not hacked'
 
 
     else
