@@ -10,6 +10,12 @@ class WelcomeController < ApplicationController
     inurl = 'https://haveibeenpwned.com/api/v2/breachedaccount/' + email
     url = URI(inurl)
     @res =  Net::HTTP.get(url)
+
+    if @res.length <3
+      nothacked = 'email'
+
+
+    else
     response = JSON.parse(@res)
     response.each do | p|
       pwn=Pwnd.new
@@ -28,7 +34,7 @@ class WelcomeController < ApplicationController
       pwn.save
     end
 
- 
+    end
 
   end
 
