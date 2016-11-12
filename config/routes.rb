@@ -7,6 +7,10 @@ Rails.application.routes.draw do
   root 'welcome#index'
   match 'fetch', to: 'welcome#fetch', via: :all
 
+  get 'about', to: 'pages#about'
+  get 'faq', to: 'pages#faq'
+  get 'contact', to: 'pages#contact'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
