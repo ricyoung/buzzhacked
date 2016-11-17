@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'faq', to: 'pages#faq'
   get 'contact', to: 'pages#contact'
 
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
