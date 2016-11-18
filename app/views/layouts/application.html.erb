@@ -10,6 +10,7 @@
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+
     <%= csrf_meta_tags %>
   </head>
 
@@ -26,6 +27,15 @@
     </ul>
   </nav>
 
+  <form method="get" action="http://twitter.com/intent/tweet" id="tweet">
+    <input value="I used buzzhacked to secure my passwords! #pwnd" id="tweet" type="text" class="validate"><label class="active left-align" for="tweet">Post to Twitter</label>
+
+    <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="I used buzzhacked to secure my passwords!" data-url="https://buzzhacked.com" data-hashtags="pwnd" data-related="twitterapi,twitter">
+      Tweet
+    </a>
+
+
+  </form>
 
     <%= yield %>
     <%= render 'layouts/footer' %>
