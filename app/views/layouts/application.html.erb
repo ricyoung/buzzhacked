@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "Buzzhacked" %></title>
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
-    <%= javascript_include_tag  "application", 'jquery'  => true  %>
-    <%= javascript_include_tag  "application", 'jquery.prettySocial.min'  => true %>
+
+
 
     <%= csrf_meta_tags %>
   </head>
@@ -30,17 +30,11 @@
     </ul>
   </nav>
 
-  <form method="get" action="http://twitter.com/intent/tweet" id="tweet">
-    <input value="I used buzzhacked to secure my passwords! #pwnd" id="tweet" type="text" class="validate"><label class="active left-align" for="tweet">Post to Twitter</label>
 
-    <a class="twitter-share-button" href="https://twitter.com/share" data-size="large" data-text="I used buzzhacked to secure my passwords!" data-url="https://buzzhacked.com" data-hashtags="pwnd" data-related="twitterapi,twitter">
-      Tweet
-    </a>
-
-
-  </form>
 
     <%= yield %>
-    <%= render 'layouts/footer' %>
+    <div id="footer">
+     <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>
