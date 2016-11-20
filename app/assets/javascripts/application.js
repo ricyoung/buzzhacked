@@ -14,8 +14,12 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
+//= require jquery.prettySocial.min
 //= require_tree .
 
 //= require foundation
+
 $(document).foundation()
 $(function(){ $(document).foundation(); });
+$('.prettySocial').prettySocial();
+
