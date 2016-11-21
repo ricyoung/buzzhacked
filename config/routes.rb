@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'faq', to: 'pages#faq'
   get 'contact', to: 'pages#contact'
+  get 'main', to: 'pages#main'
 
 
   # Example of regular route:
