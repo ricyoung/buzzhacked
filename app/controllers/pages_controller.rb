@@ -8,4 +8,12 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def main
+    # if @main=1
+    #    render 'pages/main'
+    # else
+    #   x=x
+    # end
+  end
 end
