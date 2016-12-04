@@ -37,10 +37,11 @@ class WelcomeController < ApplicationController
     end
 
 
-    respond_to do |format|
-      format.html
-      format.json { render :json => res }
-    end
+    # respond_to do |format|
+    #   format.html {head :ok}
+    #   format.json { render :json => res }
+      render :json => @res
+    # end
 
   end
 
