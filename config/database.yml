@@ -77,9 +77,10 @@ test:
 #
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
+# <%= ENV['BUZZHACKED_DATABASE_PASSWORD'] %>
 #
 production:
   <<: *default
   database: buzzhacked_production
-  username: buzzhacked
-  password: <%= ENV['BUZZHACKED_DATABASE_PASSWORD'] %>
+  username: dev
+  password: dev
