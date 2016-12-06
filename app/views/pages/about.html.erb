@@ -1,69 +1,113 @@
- <ul class="tabs" data-tabs id="example-tabs">
-    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Reviews</a></li>
-    <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
+
+<div class="column row">
+  <hr>
+  <ul class="tabs" data-tabs id="example-tabs">
+    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Team and Technology</a></li>
   </ul>
   <div class="tabs-content" data-tabs-content="example-tabs">
     <div class="tabs-panel is-active" id="panel1">
-      <h4>Reviews</h4>
+      <h4>.humans</h4>
       <div class="media-object stack-for-small">
         <div class="media-object-section">
-          <img class="thumbnail" src="http://placehold.it/200x200">
+          <img class="thumbnail" src="<%= image_path("ric.jpg") %>">
         </div>
         <div class="media-object-section">
-          <h5>Mike Stevenson</h5>
-          <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+          <h3>Richard Young</h3><h5>Organizer</h5>
+          <ol>
+            <li> Called for conferences</li>
+            <li> Ensured balance of work</li>
+            <li>Ensured lecture-project connection</li>
+            <li> Ensured scheduling</li>
+            <li>Coordinated presentation</li>
+          </ol>
         </div>
       </div>
       <div class="media-object stack-for-small">
         <div class="media-object-section">
-          <img class="thumbnail" src="http://placehold.it/200x200">
+          <img class="thumbnail" src="<%= image_path("trevor.jpg") %>">
         </div>
         <div class="media-object-section">
-          <h5>Mike Stevenson</h5>
-          <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+          <h3>Trevor Jacobson</h3><h5>Programming Leader</h5>
+          <ol>
+            <li>Delegated programmers/designers</li>
+            <li>Ensured resources to accomplish tasks</li>
+            <li>Ensured lecture-project connection</li>
+            <li>Ensured compatibilities and consistency between programmers</li>
+            <li>Lead the testing process (in terms of program execution)</li>
+          </ol>
         </div>
       </div>
       <div class="media-object stack-for-small">
         <div class="media-object-section">
-          <img class="thumbnail" src="http://placehold.it/200x200">
+          <img class="thumbnail" src="<%= image_path("jack1.jpg") %>">
         </div>
         <div class="media-object-section">
-          <h5>Mike Stevenson</h5>
-          <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+          <h3>Jack Phelan</h3><h5>Technical Writer</h5>
+          <ol>
+            <li>Drafted the assignments</li>
+            <li>Lead the peer review process</li>
+            <li>Ensured lecture-project connection</li>
+            <li>Drafted content of the project, if any is needed</li>
+            <li>Performed assignment submissions</li>
+          </ol>
         </div>
       </div>
-    <div class="tabs-panel" id="panel2">
-      <div class="row medium-up-3 large-up-5">
-        <div class="column">
-          <img class="thumbnail" src="http://placehold.it/350x200">
-          <h5>Other Product <small>$22</small></h5>
-          <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-          <a href="#" class="button hollow tiny expanded">Buy Now</a>
+
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <img class="thumbnail" src="<%= image_path("marian.jpg") %>">
         </div>
-        <div class="column">
-          <img class="thumbnail" src="http://placehold.it/350x200">
-          <h5>Other Product <small>$22</small></h5>
-          <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-          <a href="#" class="button hollow tiny expanded">Buy Now</a>
+        <div class="media-object-section">
+          <h3>Marian Hristov </h3><h5>Researcher</h5>
+          <ol>
+            <li>Assessed the lecture notes more in-depth</li>
+            <li>Create the peer review process</li>
+            <li>Advised the other members and direct them to appropriate sections</li>
+            <li>Drafted content of the project, if any is needed</li>
+            <li>Ensured user interaction theories and guidelines</li>
+          </ol>
         </div>
-        <div class="column">
-          <img class="thumbnail" src="http://placehold.it/350x200">
-          <h5>Other Product <small>$22</small></h5>
-          <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-          <a href="#" class="button hollow tiny expanded">Buy Now</a>
+      </div>
+
+      <div class="media-object stack-for-small">
+        <div class="media-object-section">
+          <img class="thumbnail" src="<%= image_path("joan.jpg") %>">
         </div>
-        <div class="column">
-          <img class="thumbnail" src="http://placehold.it/350x200">
-          <h5>Other Product <small>$22</small></h5>
-          <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-          <a href="#" class="button hollow tiny expanded">Buy Now</a>
+        <div class="media-object-section">
+          <h3>Joan Avila</h3><h5>Designer</h5>
+          <ol>
+            <li>Gathered and sketched visual design ideas</li>
+            <li>Lead the peer review process</li>
+            <li>Worked with researcher and lead programmer</li>
+            <li>Suggested designs and submit ideas for a vote/li>
+
+          </ol>
         </div>
-        <div class="column">
-          <img class="thumbnail" src="http://placehold.it/350x200">
-          <h5>Other Product <small>$22</small></h5>
-          <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-          <a href="#" class="button hollow tiny expanded">Buy Now</a>
-        </div>
+      </div>
+
+    </div>
+
+
+    <div class="tabs-content" data-tabs-content="example-tabs">
+      <div class="tabs-panel is-active" id="panel1">
+    <h4>.technology</h4>
+    <div class="row medium-up-3 large-up-5">
+      <div class="column">
+        <img class="thumbnail" src="<%= image_path("rails-logo.png") %>">
+        <h5>Rails</h5>
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="<%= image_path("heroku-logo.png") %>">
+        <h5>Heroku</h5>
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="<%= image_path("new-relic-logo.png") %>">
+        <h5>New Relic</h5>
+      </div>
+      <div class="column">
+        <img class="thumbnail" src="<%= image_path("github-logo.png") %>">
+        <h5>GitHub</h5>
+
       </div>
     </div>
   </div>
